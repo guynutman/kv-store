@@ -1,55 +1,25 @@
-# Prerequisites
-*.d
-
-# Object files
+# Build artifacts
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*.d
 *.a
-*.la
-*.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Binaries (Makefile targets)
+/kvstore
+/benchmark
+/test_runner
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Runtime data
+*.log
+*.tmp
 
-# Debug files
+# Debug / tooling
 *.dSYM/
-*.su
-*.idb
-*.pdb
+vgcore.*
+core
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Editor
+.vscode/
+*.swp
 
-# debug information files
-*.dwo
+# Scratch
+/warmup/
