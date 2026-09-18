@@ -33,7 +33,6 @@ static int table_ready = 0;
 static void crc_init(void) {
 
 }
-
 /* Compute the CRC-32 of buf[0..len).
  *
  * Start with all-ones, fold in one byte at a time via the table, then invert
